@@ -1,0 +1,54 @@
+﻿@page
+@model LoginModel
+@{
+    ViewData["Title"] = "Sign in";
+}
+<head>
+    <link rel="stylesheet" href="~/css/login2.css" />
+</head>
+<center>
+    <div class="containers" id="containers">
+        <div class="form-containers sign-in">
+            <form id="account" method="post">
+                <h2>Sign in</h2>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <span> or use your email</span>
+                <div class="w-100">
+                    <div asp-validation-summary="ModelOnly" class="text-danger fw-bold pt-1" role="alert"></div>
+                    <input asp-for="Input.Email" type="email" placeholder="Email" />
+
+                    <span asp-validation-for="Input.Email" class="text-danger fw-bold"></span>
+                </div>
+               <div class="w-100">
+                    <input asp-for="Input.Password" type="password" placeholder="Password" />
+                    <span asp-validation-for="Input.Password" class="text-danger fw-bold"></span>
+               </div>
+                <a id="forgot-password" asp-page="./ForgotPassword">Forget your password?</a>
+                <button id="login-submit" type="submit">Sign In</button>
+            </form>
+        </div>
+        <div class="toggle-containers">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h2>Welcome Back!</h2>
+                    <img src="~/Imgs/logo.png" style="width: 80px; height: auto" />
+                    <p>Unlock a world of flavor. Log in to explore new recipes!</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+            </div>
+            <div class="toggle-panel toggle-right">
+                <img src="~/Imgs/logo-word-black.png" style="width: 180px; height: auto" />
+                <img src="~/Imgs//logo.png" style="width: 80px; height: auto" />
+                <p>Get the most of our website by creating an account.</p>
+                <button class="hidden" id="register">Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <script src="~/js/loginScript.js"></script>
+</center>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

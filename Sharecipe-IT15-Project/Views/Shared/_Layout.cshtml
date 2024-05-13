@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Sharecipe_IT15_Project</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/footer.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    
+</head>
+<body>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <h5 class="fw-bold">About Us</h5>
+            <div class="footer-content">
+                <p>
+                    SHARECIPE is more than just a recipe collection – it's your
+                    personalized recipe vault in the cloud.
+                </p>
+                <p>
+                    Organize your favorite dishes, discover new ones, and share the joy
+                    of cooking with the food-loving community.
+                </p>
+            </div>
+            <div class="footer-icon">
+                <ul class="socials">
+                    <a href="https://www.facebook.com/chloudovech/" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://discord.gg/6AbQ5Dy7Z8/" target="_blank">
+                        <i class="fa-brands fa-discord"></i>
+                    </a>
+                    <a href="https://www.instagram.com/like_p.diddy/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <a href="">Home</a>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+                   target="_blank">Contact Us</a>
+            </div>
+            <div class="footer-bottom">
+                <p>Design and Copyright &copy;2024 SHARECIPE.</p>
+            </div>
+        </div>
+    </footer>
+   
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

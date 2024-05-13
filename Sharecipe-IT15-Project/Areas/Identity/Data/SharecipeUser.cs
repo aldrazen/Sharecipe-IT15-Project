@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
+using Sharecipe.Models;
+
+namespace Sharecipe_IT15_Project.Areas.Identity.Data;
+
+// Add profile data for application users by adding properties to the SharecipeUser class
+public class SharecipeUser : IdentityUser
+{
+    [PersonalData]
+    [Column(TypeName = "nvarchar(100)")]
+    public string FullName { get; set; }
+
+    [PersonalData]
+    [Column(TypeName = "nvarchar(100)")]
+    public DateOnly Birthdate { get; set; }
+
+    [PersonalData]
+    [Column(TypeName = "nvarchar(100)")]
+    public string Address { get; set; }
+
+  
+
+    public virtual ICollection<Post> UserPost { get; set; } // Singular name for clarity
+
+}
+

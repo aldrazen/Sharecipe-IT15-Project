@@ -159,52 +159,6 @@ namespace Sharecipe_IT15_Project.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("Sharecipe.Models.Post", b =>
-                {
-                    b.Property<string>("PostId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<DateTime>("PostTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("UserName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("UserPfp")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("cookTime")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("postCaption")
-                        .HasMaxLength(450)
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("postDirections")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("postImage")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("postIngredients")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("postUserId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("prepTime")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("serving")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("PostId");
-
-                    b.HasIndex("postUserId");
-
-                    b.ToTable("Posts");
-                });
-
             modelBuilder.Entity("Sharecipe_IT15_Project.Areas.Identity.Data.SharecipeUser", b =>
                 {
                     b.Property<string>("Id")
@@ -214,6 +168,10 @@ namespace Sharecipe_IT15_Project.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Bio")
                         .IsRequired()
                         .HasColumnType("nvarchar(100)");
 
@@ -259,6 +217,10 @@ namespace Sharecipe_IT15_Project.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<string>("ProfPIc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(100)");
+
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
@@ -280,6 +242,52 @@ namespace Sharecipe_IT15_Project.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+                });
+
+            modelBuilder.Entity("Sharecipe_IT15_Project.Models.Entities.Post", b =>
+                {
+                    b.Property<string>("PostId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("PostTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UserName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserPfp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("cookTime")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("postCaption")
+                        .HasMaxLength(450)
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("postDirections")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("postImage")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("postIngredients")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("postUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("prepTime")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("serving")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("PostId");
+
+                    b.HasIndex("postUserId");
+
+                    b.ToTable("Posts");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -333,7 +341,7 @@ namespace Sharecipe_IT15_Project.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Sharecipe.Models.Post", b =>
+            modelBuilder.Entity("Sharecipe_IT15_Project.Models.Entities.Post", b =>
                 {
                     b.HasOne("Sharecipe_IT15_Project.Areas.Identity.Data.SharecipeUser", "User")
                         .WithMany("UserPost")

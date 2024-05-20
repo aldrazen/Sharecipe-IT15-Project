@@ -12,10 +12,11 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("94c39ce7-7ce8-478a-bd1a-39936afa14a9")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sharecipe-IT15-Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2d4c00af9d99b9989efd76dcd7d41da7714678a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sharecipe-IT15-Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sharecipe-IT15-Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

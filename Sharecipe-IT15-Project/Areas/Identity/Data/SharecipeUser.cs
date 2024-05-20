@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
-using Sharecipe.Models;
+using Sharecipe_IT15_Project.Models.Entities;
 
 namespace Sharecipe_IT15_Project.Areas.Identity.Data;
 
@@ -23,7 +23,14 @@ public class SharecipeUser : IdentityUser
     [Column(TypeName = "nvarchar(100)")]
     public string Address { get; set; }
 
-  
+
+    [PersonalData]
+    [Column(TypeName = "nvarchar(100)")]
+    public string Bio { get; set; } = string.Empty;
+
+    [PersonalData]
+    [Column(TypeName = "nvarchar(100)")]
+    public string ProfPIc { get; set; } = string.Empty;
 
     public virtual ICollection<Post> UserPost { get; set; } // Singular name for clarity
 

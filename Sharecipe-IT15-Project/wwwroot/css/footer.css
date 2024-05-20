@@ -7,75 +7,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-footer {
-    background-color: #370f0d;
-    color: mistyrose;
-    width: 100%;
-    bottom: 0;
-    padding: 50px 30px 30px 30px;
+
+
+html {
+    position: relative;
+    min-height: 100%;
 }
 
-.footer-container {
-    bottom: 0;
-    line-height: 20px;
-    text-align: center;
-}
 
-.footer-content {
-    margin-top: 20px;
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 13px;
-}
-
-.footer-icon {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-
-.footer-icon a {
-    justify-content: center;
-    padding: 15px;
-    background-color: mistyrose;
-    margin: 15px;
-    border-radius: 50%;
-    text-decoration: none;
-}
-.footer-icon a i {
-        font-size: 20px;
-        color: #000000;
-        text-decoration: none;
- }
-.footer-icon a:hover {
-    background-color: #ff544b;
-    transition: 0.3s;
- }
-.footer-icon a:hover i {
-    color: mistyrose;
-    transition: 0.3s;
-}
-
-.footer-nav {
-    margin-top: 20px;
-    margin-bottom: 40px;
-    justify-content: center;
-}
-
-.footer-nav a {
-    margin: 20px;
-    font-size: 15px;
-    font-weight: bold;
-    color: mistyrose;
-    transition: 0.3s;
-    opacity: 0.7;
-}
-
-.footer-nav a:hover {
-    opacity: 2;
-
-}
-
-.footer-bottom {
-    font-size: 13px;
-}

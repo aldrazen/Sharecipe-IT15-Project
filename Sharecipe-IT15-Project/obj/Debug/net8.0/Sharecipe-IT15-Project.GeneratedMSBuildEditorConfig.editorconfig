@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\GitHub\IT15-FINAL-PROJECT\Sharecipe-IT15-Project\Sharecipe-IT15-Project
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/GitHub/IT15-FINAL-PROJECT/Sharecipe-IT15-Project/Sharecipe-IT15-Project/Views/Post/PostList.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxQb3N0TGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/IT15-FINAL-PROJECT/Sharecipe-IT15-Project/Sharecipe-IT15-Project/Views/Profile/ProfilePost.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxQcm9maWxlUG9zdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/GitHub/IT15-FINAL-PROJECT/Sharecipe-IT15-Project/Sharecipe-IT15-Project/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -194,8 +202,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/IT15-FINAL-PROJECT/Sharecipe-IT15-Project/Sharecipe-IT15-Project/Views/Post/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxBZGQuY3NodG1s
+[D:/GitHub/IT15-FINAL-PROJECT/Sharecipe-IT15-Project/Sharecipe-IT15-Project/Views/Post/EditPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxFZGl0UG9zdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/IT15-FINAL-PROJECT/Sharecipe-IT15-Project/Sharecipe-IT15-Project/Views/Profile/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxFZGl0UHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/IT15-FINAL-PROJECT/Sharecipe-IT15-Project/Sharecipe-IT15-Project/Views/Profile/UserProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxVc2VyUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/GitHub/IT15-FINAL-PROJECT/Sharecipe-IT15-Project/Sharecipe-IT15-Project/Views/Shared/Error.cshtml]

@@ -9,12 +9,15 @@
 <center>
     <div class="containers" id="containers">
         <div class="form-containers sign-in">
-            <form id="account" method="post">
-                <h2>Sign in</h2>
-                <div class="social-icons">
-                    <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                </div>
+            <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-vertical h-50 m-0">
+                <h2 class="fw-bold mt-5">Sign in</h2>                            
+                        @foreach (var provider in Model.ExternalLogins!)
+                        {
+                    <button type="submit" class="btn googleBtn p-3 m-0 bg-transparent border-black border-1 fa-brands fa-google fs-6" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account"></button>
+                            
+                        }          
+            </form>
+            <form id="account" method="post" class="h-25">
                 <span> or use your email</span>
                 <div class="w-100">
                     <div asp-validation-summary="ModelOnly" class="text-danger fw-bold pt-1" role="alert"></div>
@@ -27,8 +30,9 @@
                     <span asp-validation-for="Input.Password" class="text-danger fw-bold"></span>
                </div>
                 <a id="forgot-password" asp-page="./ForgotPassword">Forget your password?</a>
-                <button id="login-submit" type="submit">Sign In</button>
+                <button id="login-submit" class=""  type="submit">Sign In</button>
             </form>
+
         </div>
         <div class="toggle-containers">
             <div class="toggle">

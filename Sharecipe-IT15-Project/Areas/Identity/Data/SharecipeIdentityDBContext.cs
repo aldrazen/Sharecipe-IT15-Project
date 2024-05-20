@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
-using Sharecipe.Models;
 using Sharecipe_IT15_Project.Areas.Identity.Data;
+using Sharecipe_IT15_Project.Models.Entities;
 
 namespace Sharecipe_IT15_Project.Areas.Identity.Data;
 
@@ -15,6 +15,7 @@ public class SharecipeIdentityDBContext : IdentityDbContext<SharecipeUser>
     }
 
     public DbSet<SharecipeUser> User {  get; set; }
+    public DbSet<Post> Posts { get; set; }
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
@@ -27,5 +28,5 @@ public class SharecipeIdentityDBContext : IdentityDbContext<SharecipeUser>
             .WithMany(u => u.UserPost)
             .HasForeignKey(p => p.postUserId);
     }
-    public DbSet<Post> Posts { get; set; }
+   
 }

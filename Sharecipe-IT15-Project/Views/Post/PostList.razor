@@ -1,0 +1,140 @@
+﻿@using Sharecipe_IT15_Project.Models.Entities
+@using Sharecipe_IT15_Project.Services
+@using Microsoft.AspNetCore.Identity
+@using Sharecipe_IT15_Project.Areas.Identity.Data
+@using System.Security.Claims;
+@using Microsoft.AspNetCore.Components.Web
+@inject SignInManager<SharecipeUser> SignInManager
+@inject UserManager<SharecipeUser> UserManager
+@inject IHttpContextAccessor HttpContextAccessor
+@inject PostService postService
+
+@code {
+
+    Post selectedPost;
+    string selectedPostID;
+    IEnumerable<Post> postList;
+    SharecipeUser user;
+
+    protected override async Task OnInitializedAsync()
+    {
+        postList = await postService.PostList();
+    }
+    void SelectedPostID(string postID)
+    {
+        selectedPostID = postID;
+        selectedPost = postList.FirstOrDefault(p => p.PostId == postID);
+        StateHasChanged();
+    }
+}
+
+
+@if (postList == null)
+{
+}
+else
+{
+    @foreach (var post in postList)
+    {
+        <div class="d-flex flex-column justify-content-start w-100 mx-auto" style="max-width: 700px">
+            <div id="post1" class="bg-white p-4 rounded shadow mt-3 post">
+                <div class="row d-flex align-items-center text-nowrap">
+                    <div class="col-lg-6 d-flex justify-content-start align-items-center">
+                        <a href="/Profile/UserProfile?username=@post.UserName"><img src="/ProfileImages/@post.UserPfp" alt="avatar" class="rounded-circle me-2" style="width: 40px; height: 40px; object-fit: cover" /></a>
+                        <div class="row">
+                            <div class="col">
+                                <p class="m-0 fw-bold"><a href="/Profile/UserProfile?username=@post.UserName" class="text-decoration-none text-dark">@post.UserName</a></p>
+                                <span class="text-muted fs-7">@post.PostTime</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col text-end">
+                        <i class="fas fa-ellipsis-h" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="post1Menu"></i>
+                        <ul class="dropdown-menu border-0 shadow" aria-labelledby="post1Menu">
+                            <li class="d-flex align-items-center">
+                                <a href="#" class="dropdown-item d-flex align-items-center justify-content-around fs-7">Edit Post</a>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <a href="#" class="dropdown-item d-flex align-items-center justify-content-around fs-7">Delete Post</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="mt-3">
+                    <div>
+                        <p style="font-weight: bold">@post.postCaption</p>
+                        <img src="/PostImages/@post.postImage" alt="" class="img-fluid" style="width: 100%;cursor:pointer;" @onclick="(e => SelectedPostID(post.PostId))" data-bs-toggle=" modal" data-bs-target="#postModal" />
+                        <div class="ingredients" style="margin-top: 15px">
+                            <h5>Ingredients</h5>
+                            <ol class="list-group">
+                                <li class="list-group-item">@post.postIngredients</li>
+                            </ol>
+                            <div style="margin-bottom: 20px"></div>
+                        </div>
+                        <div class="directions">
+                            <h5>Directions</h5>
+                            <ol class="list-group">
+                                <li class="list-group-item">@post.postDirections</li>
+                            </ol>
+                            <div style="margin-bottom: 20px"></div>
+                        </div>
+                        <div class="prepTime">
+                            <h5>Prep and Cook Time</h5>
+                            <ul class="list-group">
+                                <li class="list-group-item">@post.prepTime</li>
+                            </ul>
+                            <div style="margin-bottom: 20px"></div>
+                        </div>
+                        <div class="serving">
+                            <h5>Serving</h5>
+                            <ul class="list-group">
+                                <li class="list-group-item">@post.serving</li>
+                            </ul>
+                            <div style="margin-bottom: 20px"></div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-light" id="likeButton" style="margin-top: 10px; margin-right: 10px">
+                        <i class="fas fa-heart" id="likeIcon" style="color: gray; font-size: 1.8rem"></i>
+                    </button>
+                    <script>
+                        let isLiked = false;
+                        const likeButton = document.getElementById("likeButton");
+                        const likeIcon = document.getElementById("likeIcon");
+                        likeButton.addEventListener("click", () => {
+                            isLiked = !isLiked;
+                            likeIcon.style.color = isLiked ? "red" : "gray";
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+    }
+
+
+    if (selectedPost != null)
+    {
+        <div class="modal fade" id="postModal" tabindex="-1" aria-labelledby="postTitle" aria-hidden="true" data-bs-backdrop="false">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="productTitle">@selectedPost.postCaption</h5>
+                        <button type="button" class="close text-white bg-danger" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="card">
+                            <div class="card-img" style="background-image:url('../../wwwroot/PostImages/')"></div>
+                            <div class="card-body">
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

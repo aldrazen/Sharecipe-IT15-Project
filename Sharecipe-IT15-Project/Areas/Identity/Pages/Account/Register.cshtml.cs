@@ -126,6 +126,7 @@ namespace Sharecipe_IT15_Project.Areas.Identity.Pages.Account
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
+
             returnUrl ??= Url.Content("~/");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
@@ -135,9 +136,9 @@ namespace Sharecipe_IT15_Project.Areas.Identity.Pages.Account
                 user.FullName = Input.fullName;
                 user.Address = Input.address;
                 user.Birthdate = Input.birthdate;
+                user.Bio = "";
+                user.ProfPIc = "defaultProfPic.jpg";
                
-
-
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 var result = await _userManager.CreateAsync(user, Input.Password);

@@ -1,0 +1,82 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Sharecipe_IT15_Project.Areas.Identity.Data
+@using System.Security.Claims;
+
+@inject SignInManager<SharecipeUser> SignInManager
+@inject UserManager<SharecipeUser> UserManager
+@inject IHttpContextAccessor HttpContextAccessor
+
+
+@inject SignInManager<SharecipeUser> SignInManager
+@inject UserManager<SharecipeUser> UserManager
+
+@model UpdateProfileModel
+
+@{
+    var userId = HttpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+    var user = await UserManager.FindByIdAsync(userId);
+}
+
+
+
+<div class="d-flex justify-content-end">
+    <button type="button"
+            class="edit-profile-button btn btn-light"
+            data-bs-toggle="modal"
+            data-bs-target="#editProfileModal"
+            style="margin-top: 300px; padding: 10px 5px">
+        <i class="fa-sharp fa-solid fa-user-pen"> Edit Profile</i>
+    </button>
+</div>
+<div class="modal fade"
+     id="editProfileModal"
+     tabindex="-1"
+     aria-labelledby="editProfileModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editProfileModalLabel">
+                    Edit Profile
+                </h5>
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form method="post" enctype="multipart/form-data" asp-action="EditProfile" asp-controller="Profile">
+                    <div class="mb-3">
+                        <label for="nameInput" class="form-label text-dark fw-bold">Name</label>
+                        <input type="text" class="form-control text-center" id="nameInput" placeholder="@user.FullName" asp-for="Input.fullname" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="addressInput" class="form-label text-dark fw-bold">Address</label>
+                        <input type="text" class="form-control text-center" id="addressInput" placeholder="@user.Address" asp-for="Input.address" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="birthdateInput" class="form-label text-dark fw-bold">Birthdate</label>
+                        <input type="date" class="form-control text-center" id="birthdateInput" placeholder="@user.Birthdate" asp-for="Input.birthdate"/>
+                        <input type="text" class="form-control text-center" id="addressInput" placeholder="@user.Birthdate" disabled/>
+                    </div>
+                    <div class="mb-3">
+                        <label for="bioInput" class="form-label text-dark fw-bold">Bio</label>
+                        <textarea class="form-control text-center" id="bioInput" rows="3" placeholder="@user.Bio" asp-for="Input.bio"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="profileImage" class="form-label text-dark fw-bold">Profile Picture</label>
+                        <input type="file" class="form-control" id="profileImage" asp-for="Input.profilePic" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="coverImage" class="form-label text-dark fw-bold">Cover Photo</label>
+                        <input type="file" class="form-control" id="coverImage" accept="image/*" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        Save Changes
+                    </button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>

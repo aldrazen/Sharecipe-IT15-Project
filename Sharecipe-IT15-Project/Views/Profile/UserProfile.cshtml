@@ -1,0 +1,185 @@
+﻿@using Sharecipe_IT15_Project.Views.Profile
+@using Microsoft.AspNetCore.Identity
+@using Sharecipe_IT15_Project.Areas.Identity.Data
+@using System.Security.Claims;
+@using Sharecipe_IT15_Project.Views.Profile
+@inject SignInManager<SharecipeUser> SignInManager
+@inject UserManager<SharecipeUser> UserManager
+@inject IHttpContextAccessor HttpContextAccessor
+@inject SignInManager<SharecipeUser> SignInManager
+@inject UserManager<SharecipeUser> UserManager
+@model AddPostModel
+@{
+    ViewData["Title"] = "Profile";
+    var userId = HttpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+    var user = await UserManager.FindByIdAsync(userId);
+}
+
+<div class="p-5 text-center bg-image shadow-1-strong rounded-bottom"
+     style="background-image: url(../Imgs/bg8.png); width:100%; height: 400px; background-size:cover;">
+    <div id="EditProfile"></div>
+</div>
+<div class="d-flex justify-content-center">
+    <img src="/ProfileImages/@user.ProfPIc"
+         alt="avatar"
+         class="rounded-circle me-2"
+         style="width: 200px;height: 200px;object-fit: cover;margin-top: -105px;" />
+</div>
+<div class="text-center" style="margin-top: 10px">
+    <h3 class="fw-bold">@user.FullName</h3>
+    <p>@user.Bio</p>
+</div>
+
+<form method="post" enctype="multipart/form-data">
+    <div class="d-flex flex-column justify-content-start w-100 mx-auto" style="max-width: 900px">
+
+        <!-- create post-->
+        <div class="bg-white p-3 mt-3 rounded border shadow">
+            <!--To display success message after posting-->
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div id="successMessage" class="alert alert-success text-center fw-bold" role="alert">
+                    @TempData["SuccessMessage"]
+                </div>
+            }
+            <!--5 seconds delay before success message disappear-->
+            <script>
+                setTimeout(function () {
+                    document.getElementById('successMessage').style.display = 'none';
+                }, 5000);
+            </script>
+
+            <div class="d-flex" type="button">
+                <div class="p-1">
+                    <img src="~/ProfileImages/@user.ProfPIc"
+                         alt="avatar"
+                         class="rounded-circle me-2"
+                         style="width: 40px; height: 40px; object-fit: cover" />
+                </div>
+                <button type="button"
+                        class="add-recipe-button w-100"
+                        data-bs-toggle="modal"
+                        data-bs-target="#createModal">
+                    Add new recipe...
+                </button>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade @(ViewData.ModelState.ErrorCount > 0 ? "show" : "")"
+                 id="createModal"
+                 tabindex="-1"
+                 aria-labelledby="createModalLabel"
+                 aria-hidden="true"
+                 data-bs-backdrop="false"
+            @(ViewData.ModelState.ErrorCount > 0 ? "style='display:block;'" : "")>
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header align-items-center">
+                            <h5 class="text-dark text-center w-100 m-0" id="exampleModalLabel">
+                                Add new recipe
+                            </h5>
+                            <button type="button"
+                                    class="btn-close"
+                                    data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="my-1 p-1">
+                                <div class="d-flex flex-column">
+                                    <div>
+                                        <textarea id=""
+                                                  cols="30"
+                                                  rows="1"
+                                                  class="form-control border-1 mb-3"
+                                                  style="color: rgb(73, 73, 73)"
+                                                  placeholder="Recipe Name"
+                                                  asp-for="Input.caption"></textarea>
+                                        <span asp-validation-for="Input.caption" class="text-danger fw-bold"></span>
+
+                                        <textarea id=""
+                                                  cols="30"
+                                                  rows="5"
+                                                  class="form-control border-1 mb-3"
+                                                  style="color: rgb(73, 73, 73)"
+                                                  placeholder="Ingredients"
+                                                  asp-for="Input.ingredients"></textarea>
+                                        <span asp-validation-for="Input.ingredients" class="text-danger fw-bold"></span>
+
+                                        <textarea id=""
+                                                  cols="30"
+                                                  rows="5"
+                                                  class="form-control border-1 mb-3"
+                                                  style="color: rgb(73, 73, 73)"
+                                                  placeholder="Directions"
+                                                  asp-for="Input.directions"></textarea>
+                                        <span asp-validation-for="Input.directions" class="text-danger fw-bold"></span>
+
+                                        <textarea id=""
+                                                  cols="30"
+                                                  rows="1"
+                                                  class="form-control border-1 mb-3"
+                                                  style="color: rgb(73, 73, 73)"
+                                                  placeholder="Prep Time"
+                                                  asp-for="Input.prepTime"></textarea>
+                                        <span asp-validation-for="Input.prepTime" class="text-danger fw-bold"></span>
+
+                                        <textarea id=""
+                                                  cols="30"
+                                                  rows="1"
+                                                  class="form-control border-1 mb-3"
+                                                  style="color: rgb(73, 73, 73)"
+                                                  placeholder="Cook Time"
+                                                  asp-for="Input.cookTime"></textarea>
+                                        <span asp-validation-for="Input.cookTime" class="text-danger fw-bold"></span>
+
+                                        <textarea id=""
+                                                  cols="30"
+                                                  rows="1"
+                                                  class="form-control border-1 mb-3"
+                                                  style="color: rgb(73, 73, 73)"
+                                                  placeholder="Total Serving"
+                                                  asp-for="Input.serving"></textarea>
+                                        <span asp-validation-for="Input.serving" class="text-danger fw-bold"></span>
+
+                                        <div class="mb-4">
+                                            <label for="Input_postImage" class="form-label" style=" padding: 15px 10px 0 5px; font-size: 17px;font-weight: 500;">Add Image</label>
+                                            <input type="file"
+                                                   class="form-control"
+                                                   id="coverImage"
+                                                   asp-for="Input.postImage" />
+                                            <span asp-validation-for="Input.postImage" class="text-danger fw-bold"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-success">Post</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+@(await Html.RenderComponentAsync<ProfilePost>(RenderMode.ServerPrerendered))
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#EditProfile').load("/Profile/EditProfilePartial");
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+        @if (ViewData.ModelState.ErrorCount > 0)
+        {
+            <text>
+                    $('#createModal').modal('show');
+            </text>
+        }
+                        });
+    </script>
+}

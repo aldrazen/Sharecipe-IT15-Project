@@ -1,271 +1,523 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Sharecipe-IT15-Project.bundle.scp.css",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Sharecipe-IT15-Project.bundle.scp.css",
       "PackagePath": "staticwebassets\\Sharecipe-IT15-Project.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\Imgs\\bg6.png",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\Imgs\\bg6.png",
       "PackagePath": "staticwebassets\\Imgs\\bg6.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\Imgs\\logo-word-black.png",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\Imgs\\bg8.png",
+      "PackagePath": "staticwebassets\\Imgs\\bg8.png"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\Imgs\\logo-word-black.png",
       "PackagePath": "staticwebassets\\Imgs\\logo-word-black.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\Imgs\\logo.png",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\Imgs\\logo-word-white.png",
+      "PackagePath": "staticwebassets\\Imgs\\logo-word-white.png"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\Imgs\\logo.png",
       "PackagePath": "staticwebassets\\Imgs\\logo.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\css\\footer.css",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240516-33c8a94e-4f26-4053-b0b2-f7a5c411ef34.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240516-33c8a94e-4f26-4053-b0b2-f7a5c411ef34.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240516-7d9e7390-bc19-442a-a118-132e8014a18c.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240516-7d9e7390-bc19-442a-a118-132e8014a18c.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240516-fcb286ad-4c6a-4895-a94e-d79e80390e5a.png",
+      "PackagePath": "staticwebassets\\PostImages\\20240516-fcb286ad-4c6a-4895-a94e-d79e80390e5a.png"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240516.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240516.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240516.png",
+      "PackagePath": "staticwebassets\\PostImages\\20240516.png"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240517-077e49a1-41da-4aa3-be44-840f26fe8382.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240517-077e49a1-41da-4aa3-be44-840f26fe8382.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240517-1ad32920-11ba-4abf-a3fe-97c4233eec4c.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240517-1ad32920-11ba-4abf-a3fe-97c4233eec4c.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240517-6cebd34c-8c67-4293-9e85-03b1de893a50.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240517-6cebd34c-8c67-4293-9e85-03b1de893a50.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240517-6de4d627-31b9-4729-88a2-3ca0b7926d32.png",
+      "PackagePath": "staticwebassets\\PostImages\\20240517-6de4d627-31b9-4729-88a2-3ca0b7926d32.png"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240517-a3894491-6698-4e07-af39-001ae6c1e473.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240517-a3894491-6698-4e07-af39-001ae6c1e473.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240517-c1c995aa-04bd-4d56-8e23-66230b4e1756.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240517-c1c995aa-04bd-4d56-8e23-66230b4e1756.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240517-c8e00463-2a0e-4a61-918d-4f9341a105d6.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240517-c8e00463-2a0e-4a61-918d-4f9341a105d6.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240517-d0506b4f-7bac-4852-b494-ab32999d9ca3.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240517-d0506b4f-7bac-4852-b494-ab32999d9ca3.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240517-d24bd00e-b1a5-44f0-b3e2-610aeb735e41.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240517-d24bd00e-b1a5-44f0-b3e2-610aeb735e41.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240517-de26f29f-bd75-4dd4-b3db-a0c34e8a06f9.png",
+      "PackagePath": "staticwebassets\\PostImages\\20240517-de26f29f-bd75-4dd4-b3db-a0c34e8a06f9.png"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240517-df5abdb1-6ef2-4ce5-ac04-e1979d020113.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240517-df5abdb1-6ef2-4ce5-ac04-e1979d020113.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240518-1021116f-ef21-4da3-87ba-c37d227bf9b6.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240518-1021116f-ef21-4da3-87ba-c37d227bf9b6.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240518-49829c19-3621-41e5-97a5-05b1a0d4f904.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240518-49829c19-3621-41e5-97a5-05b1a0d4f904.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240518-6d19cc1b-654f-4f55-b36a-0896bece1307.png",
+      "PackagePath": "staticwebassets\\PostImages\\20240518-6d19cc1b-654f-4f55-b36a-0896bece1307.png"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240518-7c4f2509-32c3-4f43-93ec-e1983bb6ae62.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240518-7c4f2509-32c3-4f43-93ec-e1983bb6ae62.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240518-873b375f-a568-42ef-afc8-9c05a84fdbae.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240518-873b375f-a568-42ef-afc8-9c05a84fdbae.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240518-8d2e235f-67c4-47e6-b903-796fb030c795.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240518-8d2e235f-67c4-47e6-b903-796fb030c795.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240518-90a03b6a-fea1-4b4d-864e-4e9d0b6ffe27.png",
+      "PackagePath": "staticwebassets\\PostImages\\20240518-90a03b6a-fea1-4b4d-864e-4e9d0b6ffe27.png"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240518-a99868c3-7baf-446e-b0ae-b7a6b670e1ad.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240518-a99868c3-7baf-446e-b0ae-b7a6b670e1ad.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240518-b0fc955e-fea4-4664-a9fa-ded8d01de280.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240518-b0fc955e-fea4-4664-a9fa-ded8d01de280.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240518-c7f5ea78-8622-4d36-a090-32f0c4108f1b.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240518-c7f5ea78-8622-4d36-a090-32f0c4108f1b.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240518-cb05cc20-95b5-4357-aa53-555af180bffa.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240518-cb05cc20-95b5-4357-aa53-555af180bffa.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240518-dd0c4304-3c65-4b40-a3dd-d1cd24ff1d55.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240518-dd0c4304-3c65-4b40-a3dd-d1cd24ff1d55.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240518-e662165c-3769-432d-b9b0-195d3ee01646.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240518-e662165c-3769-432d-b9b0-195d3ee01646.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240518-fd2b1e3f-7fef-428b-a615-e6beaf649d77.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240518-fd2b1e3f-7fef-428b-a615-e6beaf649d77.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240519-399bb77b-ec14-447d-be23-74ad30a25158.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240519-399bb77b-ec14-447d-be23-74ad30a25158.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240519-4f88b139-6dc4-4585-b9be-d72e5e7db543.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240519-4f88b139-6dc4-4585-b9be-d72e5e7db543.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240519-522c599b-ac3f-4533-8788-12333728e33a.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240519-522c599b-ac3f-4533-8788-12333728e33a.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240519-5705353a-d3d4-43b9-854e-a4446645236d.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240519-5705353a-d3d4-43b9-854e-a4446645236d.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240519-7336d446-8423-4ab6-98b3-e1a8542e9b83.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240519-7336d446-8423-4ab6-98b3-e1a8542e9b83.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240519-88f3a363-5f8c-49eb-954d-7543121d6361.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240519-88f3a363-5f8c-49eb-954d-7543121d6361.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240519-d254061f-30dc-477c-aca0-7f0942dd605d.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240519-d254061f-30dc-477c-aca0-7f0942dd605d.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240519-d692b753-4568-4ec6-8477-5c560ec0e836.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240519-d692b753-4568-4ec6-8477-5c560ec0e836.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240519-ec1de084-7a24-441c-beb6-bbb6199c745c.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240519-ec1de084-7a24-441c-beb6-bbb6199c745c.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240519-ee02e5db-d3c7-4f2c-b492-f9befb421613.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240519-ee02e5db-d3c7-4f2c-b492-f9befb421613.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\PostImages\\20240519-f1126306-77fa-424b-a7e6-bed013fa1a69.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\20240519-f1126306-77fa-424b-a7e6-bed013fa1a69.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\ProfileImages\\20240518-05f51707-5f1a-420b-853b-eabe8a418058.png",
+      "PackagePath": "staticwebassets\\ProfileImages\\20240518-05f51707-5f1a-420b-853b-eabe8a418058.png"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\ProfileImages\\20240518-6ce52c08-d30b-4e72-88a5-3b7860205cdb.png",
+      "PackagePath": "staticwebassets\\ProfileImages\\20240518-6ce52c08-d30b-4e72-88a5-3b7860205cdb.png"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\ProfileImages\\20240518-72716aa4-7ba1-4046-a1a3-3523aba500db.jpg",
+      "PackagePath": "staticwebassets\\ProfileImages\\20240518-72716aa4-7ba1-4046-a1a3-3523aba500db.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\ProfileImages\\20240518-b0d16403-b948-472d-88da-169dec63f18f.jpg",
+      "PackagePath": "staticwebassets\\ProfileImages\\20240518-b0d16403-b948-472d-88da-169dec63f18f.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\ProfileImages\\20240518-b24c5494-8f8e-40a3-a622-6d0cb0089901.jpg",
+      "PackagePath": "staticwebassets\\ProfileImages\\20240518-b24c5494-8f8e-40a3-a622-6d0cb0089901.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\ProfileImages\\20240518-be2c7f21-ae3e-4db0-a768-6c1b73bffbb4.jpg",
+      "PackagePath": "staticwebassets\\ProfileImages\\20240518-be2c7f21-ae3e-4db0-a768-6c1b73bffbb4.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\ProfileImages\\20240518-f4e37d69-7695-4ca7-b934-dff935a763f6.png",
+      "PackagePath": "staticwebassets\\ProfileImages\\20240518-f4e37d69-7695-4ca7-b934-dff935a763f6.png"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\ProfileImages\\20240518-fb5f78f3-b546-4cec-9ff9-65f18a7c51da.jpg",
+      "PackagePath": "staticwebassets\\ProfileImages\\20240518-fb5f78f3-b546-4cec-9ff9-65f18a7c51da.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\ProfileImages\\20240519-028e563e-6e70-424a-bcec-22f6fc2c33de.jpg",
+      "PackagePath": "staticwebassets\\ProfileImages\\20240519-028e563e-6e70-424a-bcec-22f6fc2c33de.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\ProfileImages\\20240519-18eff23d-c003-4e7d-b70d-7fb5ce8d2452.png",
+      "PackagePath": "staticwebassets\\ProfileImages\\20240519-18eff23d-c003-4e7d-b70d-7fb5ce8d2452.png"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\ProfileImages\\20240519-4970d9d5-d158-4857-95b0-d9c0d696318b.jpg",
+      "PackagePath": "staticwebassets\\ProfileImages\\20240519-4970d9d5-d158-4857-95b0-d9c0d696318b.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\ProfileImages\\20240519-7b441e0d-e4c3-4a5a-bd34-601dd6af7244.jpg",
+      "PackagePath": "staticwebassets\\ProfileImages\\20240519-7b441e0d-e4c3-4a5a-bd34-601dd6af7244.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\ProfileImages\\20240519-973c157e-baeb-484c-bd4e-4c9530fdd938.png",
+      "PackagePath": "staticwebassets\\ProfileImages\\20240519-973c157e-baeb-484c-bd4e-4c9530fdd938.png"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\ProfileImages\\20240519-9a5540ae-af69-435e-ad51-a3d309d1f156.png",
+      "PackagePath": "staticwebassets\\ProfileImages\\20240519-9a5540ae-af69-435e-ad51-a3d309d1f156.png"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\ProfileImages\\20240519-a02fa6d5-5431-4e61-ad02-88cad1757141.jpg",
+      "PackagePath": "staticwebassets\\ProfileImages\\20240519-a02fa6d5-5431-4e61-ad02-88cad1757141.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\ProfileImages\\20240519-b151c640-15ba-4387-a1d3-2b76b8f15c5e.jpg",
+      "PackagePath": "staticwebassets\\ProfileImages\\20240519-b151c640-15ba-4387-a1d3-2b76b8f15c5e.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\ProfileImages\\20240519-e61a4ba6-c675-4095-a744-ae535f41c420.png",
+      "PackagePath": "staticwebassets\\ProfileImages\\20240519-e61a4ba6-c675-4095-a744-ae535f41c420.png"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\ProfileImages\\20240519-fc00be0c-4647-4f2e-9dce-5289f03fea9f.jpg",
+      "PackagePath": "staticwebassets\\ProfileImages\\20240519-fc00be0c-4647-4f2e-9dce-5289f03fea9f.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\ProfileImages\\defaultProfPic.jpg",
+      "PackagePath": "staticwebassets\\ProfileImages\\defaultProfPic.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\css\\footer.css",
       "PackagePath": "staticwebassets\\css\\footer.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\css\\login2.css",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\css\\login2.css",
       "PackagePath": "staticwebassets\\css\\login2.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\css\\site.css",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\favicon.ico",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\js\\loginScript.js",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\js\\loginScript.js",
       "PackagePath": "staticwebassets\\js\\loginScript.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\js\\site.js",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

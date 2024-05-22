@@ -73,7 +73,8 @@ namespace Sharecipe_IT15_Project.Controllers
                     postImage = newFileName,
                     UserName = user.FullName,
                     UserPfp = user.ProfPIc,
-                    postUserId = userId
+                    postUserId = userId,
+                    postLikes = 0
                 };
 
                 await _dbContext.Posts.AddAsync(newPost);

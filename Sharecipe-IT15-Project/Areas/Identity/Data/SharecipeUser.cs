@@ -32,6 +32,8 @@ public class SharecipeUser : IdentityUser
     [Column(TypeName = "nvarchar(100)")]
     public string ProfPIc { get; set; } = string.Empty;
 
+    public string coverPic { get; set; } = string.Empty;
+
     public virtual ICollection<Post> UserPost { get; set; } // Singular name for clarity
 
 }

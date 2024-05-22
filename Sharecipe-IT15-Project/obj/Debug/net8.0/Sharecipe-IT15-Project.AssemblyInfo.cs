@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sharecipe-IT15-Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2d4c00af9d99b9989efd76dcd7d41da7714678a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a8d2719f5d9668b588dba00bf776a2cc442216b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sharecipe-IT15-Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sharecipe-IT15-Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

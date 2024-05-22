@@ -206,12 +206,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxFZGl0UG9zdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/GitHub/IT15-FINAL-PROJECT/Sharecipe-IT15-Project/Sharecipe-IT15-Project/Views/Profile/EditPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxFZGl0UG9zdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/GitHub/IT15-FINAL-PROJECT/Sharecipe-IT15-Project/Sharecipe-IT15-Project/Views/Profile/EditProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxFZGl0UHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/GitHub/IT15-FINAL-PROJECT/Sharecipe-IT15-Project/Sharecipe-IT15-Project/Views/Profile/UserProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxVc2VyUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/IT15-FINAL-PROJECT/Sharecipe-IT15-Project/Sharecipe-IT15-Project/Views/Profile/VisitProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxWaXNpdFByb2ZpbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/GitHub/IT15-FINAL-PROJECT/Sharecipe-IT15-Project/Sharecipe-IT15-Project/Views/Shared/Error.cshtml]

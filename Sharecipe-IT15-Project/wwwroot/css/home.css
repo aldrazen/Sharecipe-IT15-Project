@@ -28,7 +28,18 @@ body {
     cursor: pointer; 
 }
 
-#navProfile{
+.cover-photo{
+    width: 100%;
+    height: 0;
+    margin-top:75px;
+    padding-top: 30%; /* Adjust the aspect ratio (height) as needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+#navProfile {
     margin-right: 10px;
 }
 
@@ -37,11 +48,19 @@ body {
     justify-content: right;
 }
 
-
-.post:hover{
-    cursor:pointer;
+.clickableImg {
+    border-radius: 15px;
 }
 
+.clickableImg:hover{
+    border-radius:20px;
+    transition: border-radius 0.5s, transform 0.5s;
+
+}.clickableImg:hover {
+    transform: scale(1.02);
+    opacity: 0.9;
+    border-radius: 0;
+  }
 
 
 footer {

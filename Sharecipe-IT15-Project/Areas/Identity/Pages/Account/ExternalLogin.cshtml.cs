@@ -160,6 +160,7 @@ namespace Sharecipe_IT15_Project.Areas.Identity.Pages.Account
                 user.FullName = Input.Email;
                 user.Address = "";
                 user.ProfPIc = "defaultProfPic.jpg";
+                user.coverPic = "bg8.png";
 
 
                 var result = await _userManager.CreateAsync(user);

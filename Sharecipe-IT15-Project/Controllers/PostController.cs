@@ -10,9 +10,12 @@ using System.Threading.Tasks;
 
 namespace Sharecipe_IT15_Project.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class PostController : Controller
     {
         private readonly SharecipeIdentityDBContext _dbContext;
+        private readonly UserManager<SharecipeUser> _userManager;
 
         public PostService PostService { get; }
 
@@ -21,6 +24,7 @@ namespace Sharecipe_IT15_Project.Controllers
         {
             this._dbContext = context;
             this.PostService = postService;
+            this._userManager = userManager;
         }
 
         [HttpGet]
@@ -34,5 +38,43 @@ namespace Sharecipe_IT15_Project.Controllers
             var postModel = new Post();
             return PartialView("PostList", postModel);
         }
+
+        [HttpGet("GetPost/{postId}")]
+        public async Task<IActionResult> GetPost(string postId)
+        {
+            var post = await PostService.GetPostByIdAsync(postId);
+            if (post == null)
+            {
+                return NotFound();
+            }
+            return Ok(post);
+        }
+        [HttpPost]
+        [Route("LikePost")]
+        public async Task<IActionResult> LikePost([FromBody] LikePostRequest request)
+        {
+            int updatedLikes;
+            if (request.IsLiked)
+            {
+                // Increment post likes if the post is being liked
+                updatedLikes = await PostService.IncrementPostLikes(request.PostId);
+            }
+            else
+            {
+                // Decrement post likes if the post is being unliked
+                updatedLikes = await PostService.DecrementPostLikes(request.PostId);
+            }
+
+            return Ok(new { likes = updatedLikes });
+        }
+
+        public class LikePostRequest
+        {
+            public string PostId { get; set; }
+            public bool IsLiked { get; set; }
+        }
+
+
+
     }
 }

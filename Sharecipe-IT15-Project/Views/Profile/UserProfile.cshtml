@@ -6,8 +6,6 @@
 @inject SignInManager<SharecipeUser> SignInManager
 @inject UserManager<SharecipeUser> UserManager
 @inject IHttpContextAccessor HttpContextAccessor
-@inject SignInManager<SharecipeUser> SignInManager
-@inject UserManager<SharecipeUser> UserManager
 @model AddPostModel
 @{
     ViewData["Title"] = "Profile";
@@ -15,14 +13,14 @@
     var user = await UserManager.FindByIdAsync(userId);
 }
 
-<div class="p-5 text-center bg-image shadow-1-strong rounded-bottom"
-     style="background-image: url(../Imgs/bg8.png); width:100%; height: 400px; background-size:cover;">
+<div class="p-5 text-center cover-photo shadow-1-strong rounded-bottom"
+     style="background-image: url(/CoverPhotos/@user.coverPic); width:100%; height: 500px; background-size:cover; object-fit:cover;">
     <div id="EditProfile"></div>
 </div>
 <div class="d-flex justify-content-center">
     <img src="/ProfileImages/@user.ProfPIc"
          alt="avatar"
-         class="rounded-circle me-2"
+         class="rounded-circle"
          style="width: 200px;height: 200px;object-fit: cover;margin-top: -105px;" />
 </div>
 <div class="text-center" style="margin-top: 10px">
@@ -30,7 +28,7 @@
     <p>@user.Bio</p>
 </div>
 
-<form method="post" enctype="multipart/form-data">
+<form method="post" enctype="multipart/form-data" asp-action="UserProfile">
     <div class="d-flex flex-column justify-content-start w-100 mx-auto" style="max-width: 900px">
 
         <!-- create post-->
@@ -144,7 +142,7 @@
                                             <label for="Input_postImage" class="form-label" style=" padding: 15px 10px 0 5px; font-size: 17px;font-weight: 500;">Add Image</label>
                                             <input type="file"
                                                    class="form-control"
-                                                   id="coverImage"
+                                                   id="Input_postImage"
                                                    asp-for="Input.postImage" />
                                             <span asp-validation-for="Input.postImage" class="text-danger fw-bold"></span>
                                         </div>
@@ -180,6 +178,6 @@
                     $('#createModal').modal('show');
             </text>
         }
-                        });
+                                });
     </script>
 }

@@ -38,6 +38,7 @@ builder.Services.AddTransient<ProfileService>();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped<ProfileService>();
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -18,6 +18,8 @@
             public string? address { get; set; }
 
             public IFormFile? profilePic { get; set; }
+
+            public IFormFile? coverPic { get; set; }
         }
 
     }

@@ -138,7 +138,8 @@ namespace Sharecipe_IT15_Project.Areas.Identity.Pages.Account
                 user.Birthdate = Input.birthdate;
                 user.Bio = "";
                 user.ProfPIc = "defaultProfPic.jpg";
-               
+                user.coverPic = "bg8.png";
+
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 var result = await _userManager.CreateAsync(user, Input.Password);

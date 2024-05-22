@@ -34,6 +34,8 @@ namespace Sharecipe_IT15_Project.Models.Entities
         public string? UserPfp { get; set; } // nullable
 
         public string? UserName { get; set; }
+        
+        public int postLikes { get; set; }
 
     }
 }

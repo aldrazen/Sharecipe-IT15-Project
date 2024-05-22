@@ -1,4 +1,5 @@
-﻿@using Microsoft.AspNetCore.Components.Web
+﻿@page "/profile"
+@using Microsoft.AspNetCore.Components.Web
 @using Sharecipe_IT15_Project.Models.Entities
 @using Sharecipe_IT15_Project.Services
 @using Microsoft.AspNetCore.Identity
@@ -12,16 +13,51 @@
 @code {
     private IEnumerable<Post> profilePostList;
     private SharecipeUser user;
+    private bool isLoading = true;
 
     protected override async Task OnInitializedAsync()
     {
         profilePostList = await profileService.GetUserPost();
         string userId = HttpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
         user = await UserManager.FindByIdAsync(userId);
+        isLoading = false;
+    }
+
+    private async Task DeletePost(String postID)
+    {
+        var selectedPost = await profileService.DeleteUserPost(postID);
+        if (selectedPost)
+        {
+            profilePostList = await profileService.GetUserPost();
+        }
     }
 }
-@if (profilePostList == null)
+
+@if (isLoading)
 {
+    <div>Loading...</div>
+}
+else if (profilePostList == null || !profilePostList.Any())
+{
+    <div class="d-flex flex-column justify-content-start w-100 mx-auto mb-3" style="max-width: 900px">
+        <div id="post1" class="bg-white p-4 shadow mt-3 rounded">
+            <div class="row d-flex align-items-center text-nowrap">
+                <div class="col-lg-6 d-flex justify-content-start align-items-center">
+                    <img src="/ProfileImages/@user.ProfPIc" alt="avatar" class="rounded-circle me-2" style="width: 40px; height: 40px; object-fit: cover" />
+                    <div class="row">
+                        <div class="col">
+                            <p class="m-0 fw-bold">@user.FullName</p>
+                            <span class="text-muted fs-7"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-3">
+                <p style="font-weight: bold">You have not shared any recipes yet.</p>
+                <img src="/Imgs/no-photo-available.png" alt="" class="img-fluid" style="width: 100%" />
+            </div>
+        </div>
+    </div>
 }
 else
 {
@@ -43,14 +79,15 @@ else
                         <i class="fas fa-ellipsis-h" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="post1Menu"></i>
                         <ul class="dropdown-menu border-0 shadow" aria-labelledby="post1Menu">
                             <li class="d-flex align-items-center">
-                                <a href="#" class="dropdown-item d-flex align-items-center justify-content-around fs-7">Edit Post</a>
+                                <button type="button" class="dropdown-item d-flex justify-content-around fs-7 align-items-center" data-bs-toggle="modal" 
+                                data-bs-target="#editPostModal" data-post-id="@post.PostId" data-post-caption="@post.postCaption" data-post-ingredients="@post.postIngredients" 
+                                data-post-directions="@post.postDirections" data-prep-time="@post.prepTime" data-cook-time="@post.cookTime" data-serving="@post.serving">Edit Post</button>
                             </li>
                             <li class="d-flex align-items-center">
-                                <a href="#" class="dropdown-item d-flex align-items-center justify-content-around fs-7">Delete Post</a>
+                                <button type="button" class="dropdown-item d-flex justify-content-around fs-7 align-items-center" data-bs-toggle="modal" data-bs-target="#deleteConfirmationModal" data-post-id="@post.PostId">Delete Post</button>
                             </li>
                         </ul>
                     </div>
-
                 </div>
                 <div class="mt-3">
                     <div>
@@ -71,9 +108,16 @@ else
                             <div style="margin-bottom: 20px"></div>
                         </div>
                         <div class="prepTime">
-                            <h5>Prep and Cook Time</h5>
+                            <h5>Prep Time</h5>
                             <ul class="list-group">
                                 <li class="list-group-item">@post.prepTime</li>
+                            </ul>
+                            <div style="margin-bottom: 20px"></div>
+                        </div>
+                        <div class="cookTime">
+                            <h5>Cook Time</h5>
+                            <ul class="list-group">
+                                <li class="list-group-item">@post.cookTime</li>
                             </ul>
                             <div style="margin-bottom: 20px"></div>
                         </div>
@@ -85,16 +129,18 @@ else
                             <div style="margin-bottom: 20px"></div>
                         </div>
                     </div>
-                    <button type="button" class="btn btn-light" id="likeButton" style="margin-top: 10px; margin-right: 10px">
-                        <i class="fas fa-heart" id="likeIcon" style="color: gray; font-size: 1.8rem"></i>
-                    </button>
+                    <div class="d-flex align-items-center mt-2">
+                        <button type="button" class="btn btn-light likeButton bg-transparent border-none" data-post-id="@post.PostId">
+                            <i class="fas fa-heart likeIcon" data-post-id="@post.PostId" style="color: gray; font-size: 1.8rem"></i>
+                        </button>
+                        <p class="m-0 fs-5 me-2">@post.postLikes</p>
+                    </div>
                     <script>
-                        let isLiked = false;
-                        const likeButton = document.getElementById("likeButton");
-                        const likeIcon = document.getElementById("likeIcon");
-                        likeButton.addEventListener("click", () => {
-                            isLiked = !isLiked;
-                            likeIcon.style.color = isLiked ? "red" : "gray";
+                        $(document).on('click', '.likeButton', function () {
+                            var postId = $(this).data('post-id');
+                            var likeIcon = $('.likeIcon[data-post-id="' + postId + '"]');
+                            var isLiked = likeIcon.css('color') === 'rgb(255, 0, 0)'; // Check if the color is red
+                            likeIcon.css('color', isLiked ? 'gray' : 'red');
                         });
                     </script>
                 </div>
@@ -103,3 +149,113 @@ else
     }
 }
 
+<div class="modal fade" id="deleteConfirmationModal" tabindex="-1" aria-labelledby="deleteConfirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteConfirmationModalLabel">Confirm Deletion</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to delete this post?
+            </div>
+            <div class="modal-footer">
+                <form id="deletePostForm" method="post" action="/profile/delete">
+                    <input type="hidden" name="postId" id="modalPostId" />
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="editPostModal" tabindex="-1" aria-labelledby="editPostModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editPostModalLabel">Edit Post</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="editPostForm" method="post" action="/profile/edit">
+                    <input type="hidden" name="postId" id="editModalPostId" />
+                    <div class="mb-3">
+                        <label for="postCaption" class="form-label">Caption</label>
+                        <input type="text" class="form-control" id="postCaption" name="postCaption" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="postIngredients" class="form-label">Ingredients</label>
+                        <textarea class="form-control" id="postIngredients" name="postIngredients" rows="3" required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="postDirections" class="form-label">Directions</label>
+                        <textarea class="form-control" id="postDirections" name="postDirections" rows="3" required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="prepTime" class="form-label">Prep Time</label>
+                        <input type="text" class="form-control" id="prepTime" name="prepTime" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="cookTime" class="form-label">Cook Time</label>
+                        <input type="text" class="form-control" id="cookTime" name="cookTime" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="serving" class="form-label">Serving</label>
+                        <input type="text" class="form-control" id="serving" name="serving" required>
+                    </div>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var deleteConfirmationModal = document.getElementById('deleteConfirmationModal');
+        deleteConfirmationModal.addEventListener('show.bs.modal', function (event) {
+            var button = event.relatedTarget; // Button that triggered the modal
+            var postId = button.getAttribute('data-post-id'); // Extract postId from data-* attributes
+
+            // Update the modal's content
+            var modalPostIdInput = document.getElementById('modalPostId');
+            modalPostIdInput.value = postId;
+        });
+    });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var editPostModal = document.getElementById('editPostModal');
+        editPostModal.addEventListener('show.bs.modal', function (event) {
+            var button = event.relatedTarget; // Button that triggered the modal
+            var postId = button.getAttribute('data-post-id');
+            var postCaption = button.getAttribute('data-post-caption');
+            var postIngredients = button.getAttribute('data-post-ingredients');
+            var postDirections = button.getAttribute('data-post-directions');
+            var prepTime = button.getAttribute('data-prep-time');
+            var cookTime = button.getAttribute('data-cook-time');
+            var serving = button.getAttribute('data-serving');
+
+            // Update the modal's content
+            var modalPostIdInput = document.getElementById('editModalPostId');
+            var modalPostCaptionInput = document.getElementById('postCaption');
+            var modalPostIngredientsInput = document.getElementById('postIngredients');
+            var modalPostDirectionsInput = document.getElementById('postDirections');
+            var modalPrepTimeInput = document.getElementById('prepTime');
+            var modalCookTimeInput = document.getElementById('cookTime');
+            var modalServingInput = document.getElementById('serving');
+
+            //show the current value inside the field
+            modalPostIdInput.value = postId;
+            modalPostCaptionInput.value = postCaption;
+            modalPostIngredientsInput.value = postIngredients;
+            modalPostDirectionsInput.value = postDirections;
+            modalPrepTimeInput.value = prepTime;
+            modalCookTimeInput.value = cookTime;
+            modalServingInput.value = serving;
+        });
+    });
+</script>

@@ -231,6 +231,10 @@ namespace Sharecipe_IT15_Project.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
+                    b.Property<string>("coverPic")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("NormalizedEmail")
@@ -273,6 +277,9 @@ namespace Sharecipe_IT15_Project.Migrations
 
                     b.Property<string>("postIngredients")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("postLikes")
+                        .HasColumnType("int");
 
                     b.Property<string>("postUserId")
                         .HasColumnType("nvarchar(450)");

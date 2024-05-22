@@ -21,11 +21,12 @@
 
 <div class="d-flex justify-content-end">
     <button type="button"
-            class="edit-profile-button btn btn-light"
+            class="edit-profile-button btn btn-light fw-bold"
             data-bs-toggle="modal"
             data-bs-target="#editProfileModal"
-            style="margin-top: 300px; padding: 10px 5px">
-        <i class="fa-sharp fa-solid fa-user-pen"> Edit Profile</i>
+            style="margin-top: 390px; padding: 10px 5px;">
+        <i class="fa-sharp fa-solid fa-user-pen me-1 ms-1 fs-5"></i>
+        <span class="d-none d-md-inline">Edit Profile</span>
     </button>
 </div>
 <div class="modal fade"
@@ -69,7 +70,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="coverImage" class="form-label text-dark fw-bold">Cover Photo</label>
-                        <input type="file" class="form-control" id="coverImage" accept="image/*" />
+                        <input type="file" class="form-control" id="coverImage" asp-for="Input.coverPic" />
                     </div>
                     <button type="submit" class="btn btn-primary">
                         Save Changes

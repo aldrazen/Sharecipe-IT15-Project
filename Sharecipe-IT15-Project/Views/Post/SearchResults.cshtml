@@ -1,0 +1,159 @@
+﻿@using Sharecipe_IT15_Project.Models.Entities
+@using Sharecipe_IT15_Project.Services
+@using Microsoft.AspNetCore.Identity
+@using Sharecipe_IT15_Project.Areas.Identity.Data
+@using System.Security.Claims;
+@model IEnumerable<Sharecipe_IT15_Project.Models.Entities.Post>
+
+@inject SignInManager<SharecipeUser> SignInManager
+@inject UserManager<SharecipeUser> UserManager
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    ViewData["Title"] = "Search Results";
+    var userId = HttpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+    var user = await UserManager.FindByIdAsync(userId);
+}
+
+<h2>Search Results</h2>
+
+@if (!Model.Any())
+{
+    <div class="mt-5"></div>
+    <div class="d-flex flex-column justify-content-start w-100 mx-auto mb-3" style="max-width: 900px">
+
+        <div id="post1" class="bg-white p-4 shadow mt-3 rounded">
+            <div class="row d-flex align-items-center text-nowrap">
+                <div class="col-lg-6 d-flex justify-content-start align-items-center">
+                    <img src="/ProfileImages/defaultProfPic.jpg" alt="avatar" class="rounded-circle me-2" style="width: 40px; height: 40px; object-fit: cover" />
+                    <div class="row">
+                        <div class="col">
+                            <p class="m-0 fw-bold"></p>
+                            <span class="text-muted fs-7"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-3">
+                <p style="font-weight: bold">No results.</p>
+                <img src="/Imgs/no-photo-available.png" alt="" class="img-fluid" style="width: 100%" />
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    @foreach (var post in Model)
+    {
+        <div style="margin-top: 50px"></div>
+        <div class="d-flex flex-column justify-content-start w-100 mx-auto" style="max-width: 700px">
+            <div class="bg-white p-4 rounded shadow mt-3 post">
+                <div class="row d-flex align-items-center text-nowrap">
+                    <div class="col-lg-6 d-flex justify-content-start align-items-center">
+                        <a href="/Profile/VisitProfile?userId=@post.postUserId">
+                            <img src="/ProfileImages/@post.UserPfp" alt="avatar" class="rounded-circle me-2" style="width: 40px; height: 40px; object-fit: cover" />
+                        </a>
+                        <div class="row">
+                            <div class="col">
+                                <p class="m-0 fw-bold">
+                                    <a href="/Profile/VisitProfile?userId=@post.postUserId" class="text-decoration-none text-dark">@post.UserName</a>
+                                </p>
+                                <span class="text-muted fs-7">@post.PostTime</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <div>
+                        <img src="/PostImages/@post.postImage" alt="" class="img-fluid clickableImg" data-bs-toggle="modal" data-bs-target="#postModal" onclick="loadPostDetails('@post.PostId')"
+                             style="width: 100%; cursor:pointer;" />
+                    </div>
+                    <div class="d-flex align-items-center mt-2">
+                        <button type="button" class="btn btn-light likeButton bg-transparent border-none" data-post-id="@post.PostId">
+                            <i class="fas fa-heart likeIcon" data-post-id="@post.PostId" style="color: @(post.postLikes > 0 ? "red" : "gray"); font-size: 1.8rem"></i>
+                        </button>
+                        <p class="m-0 fs-5 me-2" id="postLikeCount_@post.PostId">@post.postLikes</p>
+                    </div>
+                    <div class="d-flex align-items-center mt-2">
+                        <p class="text-decoration-none text-dark fw-bold me-2">@post.UserName</p>
+                        <p>@post.postCaption</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="margin-bottom: 20px"></div>
+    }
+}
+<div class="modal fade" id="postModal" tabindex="-1" aria-labelledby="postTitle" aria-hidden="true" data-bs-backdrop="false">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="postTitle"></h5>
+                <button type="button" class="btn-close ms-auto bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="card w-100 w-md-75 w-lg-50">
+                    <img id="postImage" class="card-img" src="" alt="Post image" style="min-height: 300px;" />
+                    <div class="card-body">
+                        <h5>Ingredients</h5>
+                        <p id="postIngredients">test</p>
+                        <h5>Directions</h5>
+                        <p id="postDirections">test</p>
+                        <h5>Prep Time</h5>
+                        <p id="prepTime">test</p>
+                        <h5>Cook Time</h5>
+                        <p id="cookTime">test</p>
+                        <h5>Serving</h5>
+                        <p id="serving">test</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    $(document).on('click', '.likeButton', function () {
+        var postId = $(this).data('post-id');
+        var likeIcon = $('.likeIcon[data-post-id="' + postId + '"]');
+        var likeCount = $('#postLikeCount_' + postId);
+        var isLiked = likeIcon.css('color') === 'rgb(255, 0, 0)'; // Check if the color is red
+
+        // Update the like count displayed on the page
+        var currentLikes = parseInt(likeCount.text());
+        likeCount.text(isLiked ? currentLikes - 1 : currentLikes + 1);
+
+        // Update the heart color
+        likeIcon.css('color', isLiked ? 'gray' : 'red');
+
+        // Send a request to the server to update the like count
+        $.ajax({
+            type: 'POST',
+            url: '/api/Post/LikePost',
+            contentType: 'application/json',
+            data: JSON.stringify({ postId: postId, isLiked: !isLiked }),
+            success: function (response) {
+                // Optionally handle success response if needed
+                console.log('Likes updated: ' + response.likes);
+            },
+            error: function (error) {
+                console.log(error);
+            }
+        });
+    });
+
+    function loadPostDetails(postId) {
+        $.get(`/api/Post/GetPost/${postId}`, function (data) {
+            $('#postTitle').text(data.postCaption);
+            $('#postImage').attr('src', '/PostImages/' + data.postImage);
+            $('#postCaption').text(data.postCaption);
+            $('#postIngredients').text(data.postIngredients);
+            $('#postDirections').text(data.postDirections);
+            $('#prepTime').text(data.prepTime);
+            $('#cookTime').text(data.cookTime);
+            $('#serving').text(data.serving);
+        });
+    }
+</script>

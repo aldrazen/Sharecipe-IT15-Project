@@ -131,18 +131,10 @@ else
                     </div>
                     <div class="d-flex align-items-center mt-2">
                         <button type="button" class="btn btn-light likeButton bg-transparent border-none" data-post-id="@post.PostId">
-                            <i class="fas fa-heart likeIcon" data-post-id="@post.PostId" style="color: gray; font-size: 1.8rem"></i>
+                            <i class="fas fa-heart likeIcon" data-post-id="@post.PostId" style="color: @(post.postLikes > 0 ? "red" : "gray"); font-size: 1.8rem"></i>
                         </button>
-                        <p class="m-0 fs-5 me-2">@post.postLikes</p>
+                        <p class="m-0 fs-5 me-2" id="postLikeCount_@post.PostId">@post.postLikes</p>
                     </div>
-                    <script>
-                        $(document).on('click', '.likeButton', function () {
-                            var postId = $(this).data('post-id');
-                            var likeIcon = $('.likeIcon[data-post-id="' + postId + '"]');
-                            var isLiked = likeIcon.css('color') === 'rgb(255, 0, 0)'; // Check if the color is red
-                            likeIcon.css('color', isLiked ? 'gray' : 'red');
-                        });
-                    </script>
                 </div>
             </div>
         </div>
@@ -222,6 +214,36 @@ else
             // Update the modal's content
             var modalPostIdInput = document.getElementById('modalPostId');
             modalPostIdInput.value = postId;
+        });
+    });
+</script>
+<script>
+    $(document).on('click', '.likeButton', function () {
+        var postId = $(this).data('post-id');
+        var likeIcon = $('.likeIcon[data-post-id="' + postId + '"]');
+        var likeCount = $('#postLikeCount_' + postId);
+        var isLiked = likeIcon.css('color') === 'rgb(255, 0, 0)'; // Check if the color is red
+
+        // Update the like count displayed on the page
+        var currentLikes = parseInt(likeCount.text());
+        likeCount.text(isLiked ? currentLikes - 1 : currentLikes + 1);
+
+        // Update the heart color
+        likeIcon.css('color', isLiked ? 'gray' : 'red');
+
+        // Send a request to the server to update the like count
+        $.ajax({
+            type: 'POST',
+            url: '/api/Post/LikePost',
+            contentType: 'application/json',
+            data: JSON.stringify({ postId: postId, isLiked: !isLiked }),
+            success: function (response) {
+                // Optionally handle success response if needed
+                console.log('Likes updated: ' + response.likes);
+            },
+            error: function (error) {
+                console.log(error);
+            }
         });
     });
 </script>

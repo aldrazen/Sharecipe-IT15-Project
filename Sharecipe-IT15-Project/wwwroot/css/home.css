@@ -38,6 +38,17 @@ body {
     background-repeat: no-repeat;
     
 }
+.sticky-image {
+    margin-top: 20px;
+    border-radius: 5px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 85px;
+}
+.no-outline:focus {
+    outline: none;
+    box-shadow: none;
+}
 
 #navProfile {
     margin-right: 10px;

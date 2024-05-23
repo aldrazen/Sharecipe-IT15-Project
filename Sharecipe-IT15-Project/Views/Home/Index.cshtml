@@ -25,7 +25,7 @@
     <div class="col-lg-8">
         <form method="post" enctype="multipart/form-data">
             <div class="d-flex flex-column justify-content-start w-100 mx-auto"
-                 style="padding-top: 70px; max-width: 700px">
+                 style="padding-top: 70px; max-width: 900px">
 
                 <!-- create post-->
                 <div class="bg-white p-3 mt-3 rounded border shadow">
@@ -53,7 +53,7 @@
                                  style="width: 40px; height: 40px; object-fit: cover" />
                         </div>
                         <button type="button"
-                                class="add-recipe-button"
+                                class="add-recipe-button w-100"
                                 data-bs-toggle="modal"
                                 data-bs-target="#createModal">
                             Add new recipe...
@@ -148,16 +148,40 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row mt-3">
+                        <div class="col d-flex align-items-center">
+                            <i class="fas fa-solid fa-carrot me-2 text-danger"></i>
+                            <p class="m-0 text-muted">Ingredients</p>
+                        </div>
+                        <div class="col d-flex align-items-center">
+                            <i class="fas fa-solid fa-clipboard me-2 text-danger"></i>
+                            <p class="m-0 text-muted">Directions</p>
+                        </div>
+                        <div class="col d-flex align-items-center">
+                            <i class="fas fa-solid fa-clock me-2 text-danger"></i>
+                            <p class="m-0 text-muted">Prep Time</p>
+                        </div>
+                        <div class="col d-flex align-items-center">
+                            <i class="fas fa-solid fa-utensils me-2 text-danger"></i>
+                            <p class="m-0 text-muted">Serving</p>
+                        </div>
+                        <div class="col d-flex align-items-center">
+                            <i class="fas fa-solid fa-image me-2 text-danger"></i>
+                            <p class="m-0 text-muted">Photo</p>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </form>
         @(await Html.RenderComponentAsync<PostList>(RenderMode.ServerPrerendered))
+        <div style="margin-bottom: 15px"></div>
     </div>
-    <div class="col-4">
-        <!-- Your col-4 content here -->
+    <div class="col-lg-4 ">
+        <img src="/Imgs/ss.png" alt="" style="margin-top: 12px; border-radius: 5px;" class="sticky-image">
     </div>
 </div>
-<div style="margin-bottom: 15px"></div>
+
 
 @section Scripts {
 

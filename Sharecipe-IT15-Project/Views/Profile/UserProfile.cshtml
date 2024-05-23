@@ -156,11 +156,45 @@
                     </div>
                 </div>
             </div>
+            <div class="row mt-3">
+                <div class="col d-flex align-items-center">
+                    <i class="fas fa-solid fa-carrot me-2 text-danger"></i>
+                    <p class="m-0 text-muted">Ingredients</p>
+                </div>
+                <div class="col d-flex align-items-center">
+                    <i class="fas fa-solid fa-clipboard me-2 text-danger"></i>
+                    <p class="m-0 text-muted">Directions</p>
+                </div>
+                <div class="col d-flex align-items-center">
+                    <i class="fas fa-solid fa-clock me-2 text-danger"></i>
+                    <p class="m-0 text-muted">Prep Time</p>
+                </div>
+                <div class="col d-flex align-items-center">
+                    <i class="fas fa-solid fa-utensils me-2 text-danger"></i>
+                    <p class="m-0 text-muted">Serving</p>
+                </div>
+                <div class="col d-flex align-items-center">
+                    <i class="fas fa-solid fa-image me-2 text-danger"></i>
+                    <p class="m-0 text-muted">Photo</p>
+                </div>
+
+            </div>
         </div>
     </div>
 </form>
-@(await Html.RenderComponentAsync<ProfilePost>(RenderMode.ServerPrerendered))
 
+<div class=" row justify-content-evenly">
+    <div class="col-lg-8">
+        @(await Html.RenderComponentAsync<ProfilePost>(RenderMode.ServerPrerendered))
+
+    </div>
+    <div class="col-lg-4">
+        <div class="col-4 ">
+            <img src="/Imgs/ss.png" alt="" style="margin-top: 12px; border-radius: 5px;" class="sticky-image">
+        </div>
+    </div>
+</div>
+<div style="margin-bottom: 15px"></div>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />

@@ -1,7 +1,6 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @using Sharecipe_IT15_Project.Areas.Identity.Data
-@using System.Security.Claims;
-
+@using System.Security.Claims
 @inject SignInManager<SharecipeUser> SignInManager
 @inject UserManager<SharecipeUser> UserManager
 @inject IHttpContextAccessor HttpContextAccessor
@@ -10,45 +9,31 @@
     var userId = HttpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
     var user = await UserManager.FindByIdAsync(userId);
 }
- 
 
 @if (SignInManager.IsSignedIn(User))
 {
-    <div class="d-flex align-items-center fixed-top shadow"
-         style="min-height: 75px; z-index: 5; background-color: #370f0d">
+    <div class="d-flex align-items-center fixed-top shadow" style="min-height: 75px; z-index: 5; background-color: #370f0d">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-fluid d-flex align-items-center">
                     <a asp-controller="Home" asp-action="Index"><img src="~/Imgs/logo-word-white.png" style="max-width: 120px" alt="" /></a>
-                    <!--search bar-->
+                    <!-- Search bar -->
                     <div class="input-group ms-1">
-                        <span class="input-group-prepend d-lg-none" asp
-                              id="searchMenu"
-                              data-bs-toggle="dropdown"
-                              aria-expanded="false"
-                              type="button"
-                              data-bs-auto-close="outside">
-                            <div class="input-group-text bg-gray border-0 rounded-circle"
-                                 style="min-height: 40px">
-                                <i class="fas fa-search text-muted"></i>
+
+                        <form class="input-group ms-1" method="get" action="/Post/SearchResults">
+                            <span class="input-group-prepend d-lg-none" id="searchMenu">
+                                <div class="input-group-text bg-gray border-0 rounded-circle" style="min-height: 40px">
+                                    <i class="fas fa-search text-muted"></i>
+                                </div>
+                            </span>
+                            <div class="input-group-prepend d-none d-lg-block" id="searchMenu">
+                                <div class="input-group-text bg-gray border-0 rounded-pill" style="min-height: 40px; min-width: 430px">
+                                    <i class="fas fa-search me-2"></i>
+                                    <input type="text" name="query" class="form-control border-0 no-outline" placeholder="Search recipes..." style="min-height: 40px; background: none;" />
+                                </div>
                             </div>
-                        </span>
-                        <span class="input-group-prepend d-none d-lg-block"
-                              id="searchMenu"
-                              data-bs-toggle="dropdown"
-                              aria-expanded="false"
-                              type="button"
-                              data-bs-auto-close="outside">
-                            <div class="input-group-text bg-gray border-0 rounded-pill"
-                                 style="min-height: 40px; min-width: 430px">
+                        </form>
 
-                                <i class="fas fa-search me-2 text-muted"></i>
-
-                                <p class="m-0 fs-7 text-muted">Search recipe...</p>
-
-                            </div>
-
-                        </span>
 
                     </div>
 
@@ -58,7 +43,7 @@
                         </a>
                         <a class="d-none d-xl-flex align-items-center justify-content-center text-nowrap" style="text-decoration: none; color: inherit" asp-controller="Profile" asp-action="UserProfile">
                             <img src="~/ProfileImages/@user.ProfPIc" alt="avatar" class="rounded-circle me-2" style="width: 40px; height: 40px; object-fit: cover" />
-                            <p class="m-0" id="manage" style="color: #ffff" >@user.FullName</p>
+                            <p class="m-0" id="manage" style="color: #ffff">@user.FullName</p>
                         </a>
 
                         <a class="d-flex align-items-center ms-4 me-xl-auto" style="text-decoration: none" asp-controller="Home" asp-action="Index">
@@ -67,20 +52,16 @@
                         </a>
 
                         <a class="d-flex align-items-center ms-4 me-xl-auto text-nowrap" style="text-decoration: none">
-                           
                             <form id="logoutForm" class="d-flex align-items-center form-inline m-0" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-
-                                <button id="logout" type="submit" class="nav-link btn btn-link text-dark border-0 text-white p-0"><i class="fa-solid fa-right-from-bracket mx-2" style="color: #ffff"></i>Log Out</button>
+                                <button id="logout" type="submit" class="nav-link btn btn-link text-dark border-0 text-white p-0">
+                                    <i class="fa-solid fa-right-from-bracket mx-2" style="color: #ffff"></i>Log Out
+                                </button>
                             </form>
                         </a>
                     </div>
-
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
 }
+

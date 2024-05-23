@@ -278,7 +278,7 @@ namespace Sharecipe_IT15_Project.Migrations
                     b.Property<string>("postIngredients")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("postLikes")
+                    b.Property<int>("postLikes")
                         .HasColumnType("int");
 
                     b.Property<string>("postUserId")

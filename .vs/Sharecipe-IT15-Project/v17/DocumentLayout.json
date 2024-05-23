@@ -1,130 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\",
+  "WorkspaceRootPath": "C:\\Users\\Marianne\\GithubProject\\IT15-FINALPROJECT\\Sharecipe-IT15-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\views\\profile\\profilepost.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\views\\profile\\profilepost.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|c:\\users\\marianne\\githubproject\\it15-finalproject\\sharecipe-it15-project\\sharecipe-it15-project\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\views\\profile\\userprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\views\\profile\\userprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\views\\profile\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\views\\profile\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\views\\profile\\editpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\views\\profile\\editpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\models\\profilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\models\\profilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\areas\\identity\\data\\sharecipeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\areas\\identity\\data\\sharecipeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\views\\profile\\visitprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\views\\profile\\visitprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\views\\post\\postlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\views\\post\\postlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\models\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\models\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\services\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\services\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\models\\updatepostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\models\\updatepostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\models\\updateprofilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\models\\updateprofilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\models\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\models\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|c:\\users\\marianne\\githubproject\\it15-finalproject\\sharecipe-it15-project\\sharecipe-it15-project\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|c:\\users\\marianne\\githubproject\\it15-finalproject\\sharecipe-it15-project\\sharecipe-it15-project\\views\\profile\\visitprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\views\\profile\\visitprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|c:\\users\\marianne\\githubproject\\it15-finalproject\\sharecipe-it15-project\\sharecipe-it15-project\\views\\post\\postlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\views\\post\\postlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|c:\\users\\marianne\\githubproject\\it15-finalproject\\sharecipe-it15-project\\sharecipe-it15-project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|c:\\users\\marianne\\githubproject\\it15-finalproject\\sharecipe-it15-project\\sharecipe-it15-project\\views\\profile\\userprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\views\\profile\\userprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|c:\\users\\marianne\\githubproject\\it15-finalproject\\sharecipe-it15-project\\sharecipe-it15-project\\views\\profile\\profilepost.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\views\\profile\\profilepost.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|c:\\users\\marianne\\githubproject\\it15-finalproject\\sharecipe-it15-project\\sharecipe-it15-project\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\wwwroot\\css\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\wwwroot\\css\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|c:\\users\\marianne\\githubproject\\it15-finalproject\\sharecipe-it15-project\\sharecipe-it15-project\\views\\post\\searchresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\views\\post\\searchresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\areas\\identity\\pages\\account\\externallogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\areas\\identity\\pages\\account\\externallogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\areas\\identity\\pages\\account\\externallogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\areas\\identity\\pages\\account\\externallogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|c:\\users\\marianne\\githubproject\\it15-finalproject\\sharecipe-it15-project\\sharecipe-it15-project\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\wwwroot\\css\\login2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\wwwroot\\css\\login2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|d:\\github\\it15-final-project\\sharecipe-it15-project\\sharecipe-it15-project\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{5A92AECB-2737-4094-82B7-56C367D7D98E}|Sharecipe-IT15-Project\\Sharecipe-IT15-Project.csproj|solutionrelative:sharecipe-it15-project\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -134,8 +50,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
@@ -145,393 +73,137 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProfileModel.cs",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Models\\ProfileModel.cs",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Models\\ProfileModel.cs",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Models\\ProfileModel.cs",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Models\\ProfileModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T18:03:54.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProfileViewModel.cs",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Models\\ProfileViewModel.cs",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Models\\ProfileViewModel.cs",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Models\\ProfileViewModel.cs",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Models\\ProfileViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T17:59:08.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "VisitProfile.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Profile\\VisitProfile.cshtml",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Views\\Profile\\VisitProfile.cshtml",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Profile\\VisitProfile.cshtml",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Views\\Profile\\VisitProfile.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T16:42:17.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PostService.cs",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Services\\PostService.cs",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Services\\PostService.cs",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Services\\PostService.cs",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Services\\PostService.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAEwEYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T12:34:35.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProfileService.cs",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Services\\ProfileService.cs",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Services\\ProfileService.cs",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Services\\ProfileService.cs",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Services\\ProfileService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T12:34:34.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\appsettings.json",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\appsettings.json",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\appsettings.json",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-21T13:17:00.421Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PostList.razor",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Post\\PostList.razor",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Views\\Post\\PostList.razor",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Post\\PostList.razor",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Views\\Post\\PostList.razor",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T03:29:04.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SharecipeUser.cs",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Areas\\Identity\\Data\\SharecipeUser.cs",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Areas\\Identity\\Data\\SharecipeUser.cs",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Areas\\Identity\\Data\\SharecipeUser.cs",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Areas\\Identity\\Data\\SharecipeUser.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T03:01:18.526Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EditPost.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Profile\\EditPost.cshtml",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Views\\Profile\\EditPost.cshtml",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Profile\\EditPost.cshtml",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Views\\Profile\\EditPost.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T02:05:12.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "site.js",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\wwwroot\\js\\site.js",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\wwwroot\\js\\site.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-05-21T01:26:44.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UpdateProfileModel.cs",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Models\\UpdateProfileModel.cs",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Models\\UpdateProfileModel.cs",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Models\\UpdateProfileModel.cs",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Models\\UpdateProfileModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T06:56:29.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UpdatePostModel.cs",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Models\\UpdatePostModel.cs",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Models\\UpdatePostModel.cs",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Models\\UpdatePostModel.cs",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Models\\UpdatePostModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T00:41:26.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Program.cs",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Program.cs",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Program.cs",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T15:44:54.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Post.cs",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Models\\Entities\\Post.cs",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Models\\Entities\\Post.cs",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Models\\Entities\\Post.cs",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Models\\Entities\\Post.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T15:35:26.401Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProfilePost.razor",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Profile\\ProfilePost.razor",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Views\\Profile\\ProfilePost.razor",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Profile\\ProfilePost.razor",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Views\\Profile\\ProfilePost.razor",
-              "ViewState": "AQIAAKIAAAAAAAAAAAAawLQAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T15:03:11.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PostController.cs",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Controllers\\PostController.cs",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Controllers\\PostController.cs",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Controllers\\PostController.cs",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Controllers\\PostController.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAADwv04AAAAFAAAA",
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\Marianne\\GithubProject\\IT15-FINALPROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\Marianne\\GithubProject\\IT15-FINALPROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Sharecipe-IT15-Project\\Controllers\\ProfileController.cs",
+              "ViewState": "AQIAAOQAAAAAAAAAAAAswPkAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T12:42:27.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "footer.css",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\css\\footer.css",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\wwwroot\\css\\footer.css",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\css\\footer.css",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\wwwroot\\css\\footer.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-19T11:38:51.771Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-19T10:22:04.487Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAJ4AAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T10:18:57.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T08:58:46.767Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAEEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T08:56:48.657Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "login2.css",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\css\\login2.css",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\wwwroot\\css\\login2.css",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\css\\login2.css",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\wwwroot\\css\\login2.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-19T07:29:36.875Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "home.css",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\css\\home.css",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\wwwroot\\css\\home.css",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\css\\home.css",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\wwwroot\\css\\home.css",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-19T07:05:01.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EditProfile.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Profile\\EditProfile.cshtml",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Views\\Profile\\EditProfile.cshtml",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Profile\\EditProfile.cshtml",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Views\\Profile\\EditProfile.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAADAAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T07:01:29.405Z",
+              "WhenOpened": "2024-05-22T13:24:12.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProfileController.cs",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Controllers\\ProfileController.cs",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Controllers\\ProfileController.cs",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Controllers\\ProfileController.cs",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Controllers\\ProfileController.cs",
-              "ViewState": "AQIAALcAAAAAAAAAAAAEwMkAAAAcAAAA",
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Users\\Marianne\\GithubProject\\IT15-FINALPROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Controllers\\PostController.cs",
+              "ToolTip": "C:\\Users\\Marianne\\GithubProject\\IT15-FINALPROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Controllers\\PostController.cs",
+              "RelativeToolTip": "Sharecipe-IT15-Project\\Controllers\\PostController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T06:56:11.2Z",
+              "WhenOpened": "2024-05-22T13:24:10.389Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T06:51:38.197Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAawFIAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T06:48:53.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AQIAAHQAAAAAAAAAAAA7wI0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T06:44:17.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ExternalLogin.cshtml.cs",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
-              "ViewState": "AQIAAI4AAAAAAAAAAADwv6QAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T06:43:39.724Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ExternalLogin.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T06:43:06.221Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserProfile.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Profile\\UserProfile.cshtml",
-              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Views\\Profile\\UserProfile.cshtml",
-              "ToolTip": "D:\\GitHub\\IT15-FINAL-PROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Profile\\UserProfile.cshtml",
-              "RelativeToolTip": "Sharecipe-IT15-Project\\Views\\Profile\\UserProfile.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAARAAAA",
+              "Title": "VisitProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marianne\\GithubProject\\IT15-FINALPROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Profile\\VisitProfile.cshtml",
+              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Views\\Profile\\VisitProfile.cshtml",
+              "ToolTip": "C:\\Users\\Marianne\\GithubProject\\IT15-FINALPROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Profile\\VisitProfile.cshtml",
+              "RelativeToolTip": "Sharecipe-IT15-Project\\Views\\Profile\\VisitProfile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-18T17:22:52.55Z",
+              "WhenOpened": "2024-05-22T13:23:51.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "home.css",
+              "DocumentMoniker": "C:\\Users\\Marianne\\GithubProject\\IT15-FINALPROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\css\\home.css",
+              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\wwwroot\\css\\home.css",
+              "ToolTip": "C:\\Users\\Marianne\\GithubProject\\IT15-FINALPROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\wwwroot\\css\\home.css",
+              "RelativeToolTip": "Sharecipe-IT15-Project\\wwwroot\\css\\home.css",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-22T12:39:51.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marianne\\GithubProject\\IT15-FINALPROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Marianne\\GithubProject\\IT15-FINALPROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Sharecipe-IT15-Project\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T12:27:16.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SearchResults.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marianne\\GithubProject\\IT15-FINALPROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Post\\SearchResults.cshtml",
+              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Views\\Post\\SearchResults.cshtml",
+              "ToolTip": "C:\\Users\\Marianne\\GithubProject\\IT15-FINALPROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Post\\SearchResults.cshtml",
+              "RelativeToolTip": "Sharecipe-IT15-Project\\Views\\Post\\SearchResults.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAC8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T12:21:06.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PostList.razor",
+              "DocumentMoniker": "C:\\Users\\Marianne\\GithubProject\\IT15-FINALPROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Post\\PostList.razor",
+              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Views\\Post\\PostList.razor",
+              "ToolTip": "C:\\Users\\Marianne\\GithubProject\\IT15-FINALPROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Post\\PostList.razor",
+              "RelativeToolTip": "Sharecipe-IT15-Project\\Views\\Post\\PostList.razor",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAACcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T12:20:21.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marianne\\GithubProject\\IT15-FINALPROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Marianne\\GithubProject\\IT15-FINALPROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Sharecipe-IT15-Project\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAAALYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T12:13:18.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProfilePost.razor",
+              "DocumentMoniker": "C:\\Users\\Marianne\\GithubProject\\IT15-FINALPROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Profile\\ProfilePost.razor",
+              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Views\\Profile\\ProfilePost.razor",
+              "ToolTip": "C:\\Users\\Marianne\\GithubProject\\IT15-FINALPROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Profile\\ProfilePost.razor",
+              "RelativeToolTip": "Sharecipe-IT15-Project\\Views\\Profile\\ProfilePost.razor",
+              "ViewState": "AQIAANQAAAAAAAAAAAAxwPcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T12:10:37.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marianne\\GithubProject\\IT15-FINALPROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Profile\\UserProfile.cshtml",
+              "RelativeDocumentMoniker": "Sharecipe-IT15-Project\\Views\\Profile\\UserProfile.cshtml",
+              "ToolTip": "C:\\Users\\Marianne\\GithubProject\\IT15-FINALPROJECT\\Sharecipe-IT15-Project\\Sharecipe-IT15-Project\\Views\\Profile\\UserProfile.cshtml",
+              "RelativeToolTip": "Sharecipe-IT15-Project\\Views\\Profile\\UserProfile.cshtml",
+              "ViewState": "AQIAAKkAAAAAAAAAAAAAAL4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T12:10:20.929Z",
               "EditorCaption": ""
             }
           ]

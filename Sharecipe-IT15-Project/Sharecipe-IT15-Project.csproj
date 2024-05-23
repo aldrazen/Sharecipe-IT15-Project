@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Migrations\" />
     <Folder Include="wwwroot\CoverPhotos\" />
     <Folder Include="wwwroot\ProfileImages\" />
     <Folder Include="wwwroot\PostImages\" />

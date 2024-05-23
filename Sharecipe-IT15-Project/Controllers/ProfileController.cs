@@ -241,7 +241,7 @@ namespace Sharecipe_IT15_Project.Controllers
 
             if (userId == loggedInUserId)
             {
-                return RedirectToAction("MyProfile");
+                return RedirectToAction("UserProfile");
             }
 
             var user = await _userManager.FindByIdAsync(userId);

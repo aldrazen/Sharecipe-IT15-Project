@@ -66,5 +66,12 @@ namespace Sharecipe_IT15_Project.Services
             return await _dbContext.Posts.Where(p => p.postUserId == userId).ToListAsync();
         }
 
+        public async Task<IEnumerable<Post>> SearchPostsAsync(string query)
+        {
+            string lowerQuery = query.ToLower();
+            return await _dbContext.Posts
+                .Where(p => p.postCaption.ToLower().Contains(lowerQuery))
+                .ToListAsync();
+        }
     }
 }

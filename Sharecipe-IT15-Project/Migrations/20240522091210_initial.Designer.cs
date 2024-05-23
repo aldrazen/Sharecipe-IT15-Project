@@ -12,8 +12,8 @@ using Sharecipe_IT15_Project.Areas.Identity.Data;
 namespace Sharecipe_IT15_Project.Migrations
 {
     [DbContext(typeof(SharecipeIdentityDBContext))]
-    [Migration("20240515162836_may1620024")]
-    partial class may1620024
+    [Migration("20240522091210_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -174,6 +174,10 @@ namespace Sharecipe_IT15_Project.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(100)");
 
+                    b.Property<string>("Bio")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(100)");
+
                     b.Property<string>("Birthdate")
                         .IsRequired()
                         .HasColumnType("nvarchar(100)");
@@ -216,6 +220,10 @@ namespace Sharecipe_IT15_Project.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<string>("ProfPIc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(100)");
+
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
@@ -225,6 +233,10 @@ namespace Sharecipe_IT15_Project.Migrations
                     b.Property<string>("UserName")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("coverPic")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -268,6 +280,9 @@ namespace Sharecipe_IT15_Project.Migrations
 
                     b.Property<string>("postIngredients")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("postLikes")
+                        .HasColumnType("int");
 
                     b.Property<string>("postUserId")
                         .HasColumnType("nvarchar(450)");

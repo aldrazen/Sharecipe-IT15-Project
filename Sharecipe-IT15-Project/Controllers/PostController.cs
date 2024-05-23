@@ -74,6 +74,17 @@ namespace Sharecipe_IT15_Project.Controllers
             public bool IsLiked { get; set; }
         }
 
+        [HttpGet("/Post/SearchResults")]
+        public async Task<IActionResult> SearchResults(string query)
+        {
+            if (string.IsNullOrWhiteSpace(query))
+            {
+                return View("SearchResults", Enumerable.Empty<Post>());
+            }
+
+            var posts = await PostService.SearchPostsAsync(query);
+            return View("SearchResults", posts);
+        }
 
 
     }
